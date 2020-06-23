@@ -62,3 +62,7 @@
 				});
 
 })(jQuery);
+
+function toast(){
+	alert( ':)' );
+}
