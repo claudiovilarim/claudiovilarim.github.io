@@ -1,34 +1,78 @@
+@font-face{
+  font-family: 'Bold';
+  src: url("Fonts/Montserrat-Bold.ttf");
+
+}
+@font-face{
+  font-family: 'Regular';
+  src: url("Fonts/Montserrat-Regular.ttf");
+}
+@font-face{
+  font-family: 'Light';
+  src: url("Fonts/OpenSans-Light.ttf");
+}
+@font-face{
+  font-family: 'Thin';
+  src: url("Fonts/Montserrat-Thin.ttf");
+}
+
+
 *{
   margin: 0;
   padding: 0;
 }
 
 
+body{
+  background: rgb(248, 248, 248) url("Imagens/bg01.png");
+  font-family: "Regular";
+}
+
+nav{
+  font-family: "Bold";
+
+}
+
+h4{
+  font-family: "Light";
+}
+
+#maincards p{
+  font-family: "Regular";
+}
+
+
+
+
+
+
+
+
 /* ------ Media querie ------ */
 
 /* Small devices*/
-/* @media (min-width: 1px) and (max-width: 576px) {
+@media (min-width: 1px) and (max-width: 576px) {
   html{
     background: red;
     font-size: 63%;
   }
   
-} */
+} 
 /* Medium devices*/
-/* @media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 577px) and (max-width: 768px) {
   body{
     background: yellow;
-    font-size: 50%;
+    
   }
-} */
+}
 /* Large devices*/
-/* @media (max-width: 992px) {
+ @media (max-width: 992px) {
   
-} */
+} 
 /* Extra Large devices*/
-/* @media () {
+@media () {
 
-} */
+} 
 
 
 
