@@ -84,39 +84,13 @@ h4{
   }
 } 
 
-/* Small devices*/
-/* @media (min-width: 339px) and (max-width: 576px) {
-  html{
-    background: red;
-    font-size: 74%;
-  }
-
-  #navbar{
-    font-size: 16px;
-    border-bottom: 2px solid rgba(26, 26, 26, 0.171);
-    margin-bottom: -14%;
-  }
-
-  #cardPrincipal *{
-    padding: 0px;
-  }
-
-  #bemVindo{
-    font-size: 15px;
-  }
-
-  .project{
-    max-width: 350px;
-    height: 370px;
-  }
-  
-}  */
 /* Medium devices*/
 @media (min-width: 577px) and (max-width: 768px) {
   #bemVindo{
     font-size: 32px;
   }
 }
+
 /* Large devices*/
  @media (min-width: 769px) and (max-width: 992px) {
   #bemVindo{
@@ -127,6 +101,7 @@ h4{
     font-size: 12px;
   }
 } 
+
 /* Extra Large devices*/
 @media (min-width: 993px) {
   #bemVindo{
